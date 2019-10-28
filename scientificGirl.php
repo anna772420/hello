@@ -14,7 +14,7 @@
 </head>
 <body>
 	<div class="phototitle">
-		<font color ="#FFF0F5"><h1 align="center">精彩劇照與花絮</h1></font>
+		<font color ="#FFF0F5"><h1 align="center">精彩劇照與花絮美照</h1></font>
 	</div>
 	
 	<div id="carousel" class="carousel slide" data-ride="carousel">
