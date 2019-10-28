@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap 实例</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+  </style>
+</head>
+<body>
+
+<div id="album" class="carousel slide" data-ride="carousel">
+ 
+  <!-- 照片數 -->
+  <ul class="carousel-indicators">
+    <li data-target="#album" data-slide-to="0" class="active"></li>
+    <li data-target="#album" data-slide-to="1"></li>
+    <li data-target="#album" data-slide-to="2"></li>
+    <li data-target="#album" data-slide-to="3"></li>
+  </ul>
+ 
+  <!-- 幻燈片 -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image/pic0.jpg">
+      </div>
+      <div class="carousel-item">
+        <img src="image/pic1.jpg">
+      </div>
+      <div class="carousel-item">
+        <img src="image/pic2.jpg">
+      </div>
+          <div class="carousel-item">
+        <img src="image/pic3.jpg">
+      </div>
+    </div>
+   
+    <!-- 左右切換-->
+    <a class="carousel-control-prev" href="#album" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#album" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+   
+  </div>
+
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="image/pic0.jpg">
+      <img src="image/pic0.jpg" alt="圖片描述" width="300" height="200">
+    </a>
+    <div class="desc">文字敘述</div>
+  </div>
+</div>
+ 
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="image/pic1.jpg">
+      <img src="image/pic1.jpg" alt="圖片描述" width="300" height="200">
+    </a>
+    <div class="desc">文字敘述</div>
+  </div>
+</div>
+ 
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="image/pic2.jpg">
+      <img src="image/pic2.jpg" alt="圖片描述" width="300" height="200">
+    </a>
+    <div class="desc">文字敘述</div>
+  </div>
+</div>
+ 
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="image/pic3.jpg">
+      <img src="image/pic3.jpg" alt="圖片描述" width="300" height="200">
+    </a>
+    <div class="desc">文字敘述</div>
+  </div>
+</div>
+
+</body>
+</html>
