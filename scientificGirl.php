@@ -10,11 +10,11 @@
 	<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
 	<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-	<title>奇怪少女</title>
+	<title>科學少女</title>
 </head>
 <body>
 	<div class="phototitle">
-		<font color ="#FFF0F5"><h1 align="center">精彩劇照與花絮美照</h1></font>
+		<font color ="#FFF0F5"><h1 align="center">精彩劇照與花絮</h1></font>
 	</div>
 	
 	<div id="carousel" class="carousel slide" data-ride="carousel">
@@ -24,6 +24,12 @@
 			<li data-target="#carousel" data-slide-to="1"></li>
 			<li data-target="#carousel" data-slide-to="2"></li>
 			<li data-target="#carousel" data-slide-to="3"></li>
+			<li data-target="#carousel" data-slide-to="4"></li>
+			<li data-target="#carousel" data-slide-to="5"></li>
+			<li data-target="#carousel" data-slide-to="6"></li>
+			<li data-target="#carousel" data-slide-to="7"></li>
+			<li data-target="#carousel" data-slide-to="8"></li>
+			<li data-target="#carousel" data-slide-to="9"></li>		
 		</ul>
 	<!-- 幻燈片 -->
 		<div class="carousel-inner">
@@ -39,6 +45,26 @@
 			<div class="carousel-item">
 				<img src="image/pic3.jpg">
 			</div>
+			<div class="carousel-item">
+				<img src="image/pic4.jpg">
+			</div>
+			<div class="carousel-item">
+				<img src="image/pic5.jpg">
+			</div>
+			<div class="carousel-item">
+				<img src="image/pic6.jpg">
+			</div>
+			<div class="carousel-item">
+				<img src="image/pic7.jpg">
+			</div>
+			<div class="carousel-item">
+				<img src="image/pic8.jpg">
+			</div>
+			<div class="carousel-item">
+				<img src="image/pic9.jpg">
+			</div>
+
+
 		</div>
 	<!-- 左右切換-->
 		<a class="carousel-control-prev" href="#carousel" data-slide="prev">
@@ -49,9 +75,11 @@
 		</a>
 	</div>
 
+
+	<!-- 照片藝廊 -->
 	<div class="responsive">
 		<div class="img">
-			<a target="_blank" href="image/pic0.jpg">
+			<a class= "slide-0">
 			<img src="image/pic0.jpg" alt="圖片描述" width="300" height="200">
 			</a>
 			<div class="desc">精彩劇照1</div>
@@ -59,7 +87,7 @@
 	</div>
 	<div class="responsive">
 		<div class="img">
-			<a target="_blank" href="image/pic1.jpg">
+			<a class= "slide-1">
 			<img src="image/pic1.jpg" alt="圖片描述" width="300" height="200">
 			</a>
 			<div class="desc">精彩劇照2</div>
@@ -67,7 +95,7 @@
 	</div>
 	<div class="responsive">
 		<div class="img">
-			<a target="_blank" href="image/pic2.jpg">
+			<a class= "slide-2">
 			<img src="image/pic2.jpg" alt="圖片描述" width="300" height="200">
 			</a>
 			<div class="desc">精彩劇照3</div>
@@ -75,7 +103,7 @@
 	</div>
 	<div class="responsive">
 		<div class="img">
-			<a target="_blank" href="image/pic3.jpg">
+			<a class= "slide-3">
 			<img src="image/pic3.jpg" alt="圖片描述" width="300" height="200">
 			</a>
 			<div class="desc">精彩劇照4</div>
@@ -83,7 +111,7 @@
 	</div>
 	<div class="responsive">
 		<div class="img">
-			<a target="_blank" href="image/pic4.jpg">
+			<a class= "slide-4">
 			<img src="image/pic4.jpg" alt="圖片描述" width="300" height="200">
 			</a>
 			<div class="desc">精彩劇照5</div>
@@ -91,15 +119,15 @@
 	</div>
 	<div class="responsive">
 		<div class="img">
-			<a target="_blank" href="image/pic5.jpg">
+			<a class= "slide-5">
 			<img src="image/pic5.jpg" alt="圖片描述" width="300" height="200">
 			</a>
 			<div class="desc">精彩劇照6</div>
 		</div>
-	</div>	
+	</div>
 	<div class="responsive">
 		<div class="img">
-			<a target="_blank" href="image/pic6.jpg">
+			<a class= "slide-6">
 			<img src="image/pic6.jpg" alt="圖片描述" width="300" height="200">
 			</a>
 			<div class="desc">幕後花絮1</div>
@@ -107,7 +135,7 @@
 	</div>
 	<div class="responsive">
 		<div class="img">
-			<a target="_blank" href="image/pic7.jpg">
+			<a class= "slide-7">
 			<img src="image/pic7.jpg" alt="圖片描述" width="300" height="200">
 			</a>
 			<div class="desc">幕後花絮2</div>
@@ -115,7 +143,7 @@
 	</div>
 	<div class="responsive">
 		<div class="img">
-			<a target="_blank" href="image/pic8.jpg">
+			<a class= "slide-8">
 			<img src="image/pic8.jpg" alt="圖片描述" width="300" height="200">
 			</a>
 			<div class="desc">幕後花絮3</div>
@@ -123,36 +151,54 @@
 	</div>
 	<div class="responsive">
 		<div class="img">
-			<a target="_blank" href="image/pic9.jpg">
+			<a class= "slide-9">
 			<img src="image/pic9.jpg" alt="圖片描述" width="300" height="200">
 			</a>
 			<div class="desc">幕後花絮4</div>
 		</div>
 	</div>
-	<div class="responsive">
-		<div class="img">
-			<a target="_blank" href="image/pic10.jpg">
-			<img src="image/pic10.jpg" alt="圖片描述" width="300" height="200">
-			</a>
-			<div class="desc">幕後花絮5</div>
-		</div>
-	</div>
-	<div class="responsive">
-		<div class="img">
-			<a target="_blank" href="image/pic11.jpg">
-			<img src="image/pic11.jpg" alt="圖片描述" width="300" height="200">
-			</a>
-			<div class="desc">幕後花絮6</div>
-		</div>
-	</div>
-	<div class="responsive">
-		<div class="img">
-			<a target="_blank" href="image/pic12.jpg">
-			<img src="image/pic12.jpg" alt="圖片描述" width="300" height="200">
-			</a>
-			<div class="desc">幕後花絮7</div>
-		</div>
-	</div>
+
+	
+
+
+
+	<script>
+		$(function(){
+		// 循环轮播到某个特定的帧 
+		$(".slide-0").click(function(){
+			$("#carousel").carousel(0);
+		});
+		$(".slide-1").click(function(){
+			$("#carousel").carousel(1);
+		});
+		$(".slide-2").click(function(){
+			$("#carousel").carousel(2);
+		});
+		$(".slide-3").click(function(){
+			$("#carousel").carousel(3);
+		});	
+		$(".slide-4").click(function(){
+			$("#carousel").carousel(4);
+		});
+		$(".slide-5").click(function(){
+			$("#carousel").carousel(5);
+		});
+		$(".slide-6").click(function(){
+			$("#carousel").carousel(6);
+		});
+		$(".slide-7").click(function(){
+			$("#carousel").carousel(7);
+		});	
+		$(".slide-8").click(function(){
+			$("#carousel").carousel(8);
+		});
+		$(".slide-9").click(function(){
+			$("#carousel").carousel(9);
+		});
+
+	});
+
+	</script>
 
 </body>
 </html>
